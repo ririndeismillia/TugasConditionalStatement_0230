@@ -8,7 +8,7 @@ int main(){
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" <<endl;
     cout <<"Masukkan berat badan : ";
     cin >> dataBB;
-    cout <<"Masukkan tinggi badan ;";
+    cout <<"Masukkan tinggi badan : ";
     cin >> dataTB;
 
     float bmi = dataBB/(dataTB*dataTB);
