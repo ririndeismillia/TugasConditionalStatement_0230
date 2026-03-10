@@ -11,7 +11,9 @@ int main(){
     cin >> dataTB;
 
     float bmi = dataBB/(dataTB*dataTB);
-     if (bmi < 18.5)
+    if (bmi < 18.5)
             status ="Berat Badan Kurang";
+    else if(bmi < 25)
+            status ="Berat Badan Normal";       
 
 
