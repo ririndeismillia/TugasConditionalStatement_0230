@@ -5,6 +5,7 @@ int main(){
     float dataBB,dataTB;
     string status;
 
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" <<endl;
     cout <<"Masukkan berat badan : ";
     cin >> dataBB;
     cout <<"Masukkan tinggi badan ;";
@@ -18,6 +19,16 @@ int main(){
     else if(bmi < 30)
             status ="Berat Badan Kelebihan";
     else
-            status ="Obesitas";              
+            status ="Obesitas"; 
+
+
+    cout << "\n---Hasil---"<<endl;
+    cout << "BMI Anda = " <<bmi<<endl;
+
+    cout << "Status = "<<status<<endl;
+
+    return 0;
+
+}        
 
 
