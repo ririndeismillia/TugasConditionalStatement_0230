@@ -10,4 +10,6 @@ int main(){
     cout <<"Masukkan tinggi badan ;";
     cin >> dataTB;
 
+    float bmi = dataBB/(dataTB*dataTB);
+
 
